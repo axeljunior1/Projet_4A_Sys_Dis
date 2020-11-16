@@ -2,7 +2,6 @@ package com.polytech.bean;
 
 import java.beans.XMLDecoder;
 import java.io.FileInputStream;
-import java.io.ObjectInputStream;
 
 public class Deserialisation {
 
