@@ -12,14 +12,22 @@
 <c:if test="${!empty cf.res }"> <c:out value="${cf.res }"></c:out></c:if>
 	<form action="fileJsp" method="post">
 		<p> 
-		</a><label for="login"> Nom:</label> 
-		<input type="text" name="login" id="nom">
+		<label for="nom"> Nom:</label> 
+		<input type="text" name="nom" id="nom">
 		</p>
 		<p>
-		</a><label for="password"> Password:</label> 
-		<input type="password" name="password" id=""password"">
+		<label for="prenom"> prenom:</label> 
+		<input type="text" name="prenom" id="prenom">
+		</p>
+		<p>
+		<label for="age"> age:</label> 
+		<input type="text" name="age" id="age">
 		</p>
 		<input type="submit">
 	</form>
+	
+	<c:forEach  items="${etudiants }" var="etudiant" >
+		<p> ${etudiant.nom } </p>
+	</c:forEach>
 </body>
 </html>

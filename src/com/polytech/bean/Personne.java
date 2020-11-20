@@ -10,8 +10,7 @@ public class Personne implements Serializable{
 	
 	private String nom;
 	private String prenom;
-	private Double age;
-	private date dateNaiss; 
+	private int age; 
 	
 	
 	public Personne() {
@@ -20,12 +19,11 @@ public class Personne implements Serializable{
 	
 	
 	
-	public Personne(String nom, String prenom, Double age, date dateNaiss) {
+	public Personne(String nom, String prenom, int age) {
 		super();
 		this.nom = nom;
 		this.prenom = prenom;
 		this.age = age;
-		this.dateNaiss = dateNaiss;
 	}
 
 
@@ -46,29 +44,21 @@ public class Personne implements Serializable{
 		this.prenom = prenom;
 	}
 
-	public Double getAge() {
+	public int getAge() {
 		return age;
 	}
 
-	public void setAge(Double age) {
+	public void setAge(int age) {
 		this.age = age;
-	}
- 
-
-	public date getDateNaiss() {
-		return dateNaiss;
-	}
- 
-	public void setDateNaiss(date dateNaiss) {
-		this.dateNaiss = dateNaiss;
 	}
 
 
 
 	@Override
 	public String toString() {
-		return "Personne [nom=" + nom + ", prenom=" + prenom + ", age=" + age + ", dateNaiss=" + dateNaiss + "]";
+		return "Personne [nom=" + nom + ", prenom=" + prenom + ", age=" + age + "]";
 	}
+ 
 
 
 }

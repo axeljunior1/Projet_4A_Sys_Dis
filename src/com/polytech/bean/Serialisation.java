@@ -14,7 +14,7 @@ public class Serialisation {
 		try {
 
 			date datenaiss = new date(2,04,2000);
-			Personne p1 = new Personne("mengue", "axel", 10.0, datenaiss);
+			Personne p1 = new Personne("mengue", "axel", 10);
 			FileOutputStream fos = new FileOutputStream(new File("./personne.xml"));
 			XMLEncoder enc = new XMLEncoder(fos);
 			enc.writeObject(p1);
