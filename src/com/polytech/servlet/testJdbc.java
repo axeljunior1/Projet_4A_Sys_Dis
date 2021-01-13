@@ -11,7 +11,6 @@ import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 
-import com.mysql.cj.xdevapi.PreparableStatement;
 import com.polytech.bean.Personne;
 
 public class testJdbc {

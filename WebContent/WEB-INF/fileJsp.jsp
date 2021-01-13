@@ -18,8 +18,9 @@
 		<div class="jumbotron">
 			<div class="card-header bg-transparent border-success">
 				<h1 class="display-4">
-					Hello, world! (Header)
+					Hello, world! (Header) <img src="https://icon-icons.com/icons2/2778/PNG/32/user_icon_176933.png" style="width: 50px" height="50"/>
 					</h2>
+					
 			</div>
 			<p class="lead">This is a simple hero unit, a simple
 				jumbotron-style component for calling extra attention to featured
