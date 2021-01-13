@@ -16,12 +16,26 @@
 			<li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
 		</ul>
 		<span class="navbar-text">
-		
-			<form class="form-inline">
+
+			<form class="form-inline" method="post" action="Acceuil">
 				<input class="form-control mr-sm-2" type="search"
-					placeholder="Search" aria-label="Search">
+					placeholder="Search" aria-label="Search" style="width: 500px">
 				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="margin-left: 30px"><!--  <img src="user_icon_176933.png" style=" width: auto ; height: auto;"/>-->Mon Compte</button>
+				<c:if test="${50>10 }" var="variable">
+
+					<label class="btn btn-outline-success my-2 my-sm-0"
+						style="border: 0px; color: white">Non du connecté
+						(${!variable })</label>
+
+				</c:if>
+				<a href="/Acceuil">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit"
+						style="margin-left: 10px">
+						<!--  <img src="user_icon_176933.png" style=" width: auto ; height: auto;"/>-->
+						Mon Compte
+					</button>
+				</a>
+
 			</form>
 		</span>
 	</div>

@@ -8,6 +8,10 @@
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 	crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/styles/cssMenuDeroulant.css" />
+
+	
 </head>
 <body>
 
@@ -69,7 +73,17 @@
 				passages, and more recently with desktop publishing software like
 				Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-
+				<div class="dropdown">
+					<button class="btn btn-secondary dropdown-toggle" type="button"
+						id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
+						aria-expanded="false">Dropdown</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+						<button class="dropdown-item" type="button">Action</button>
+						<button class="dropdown-item" type="button">Anotheraction</button>
+						<button class="dropdown-item" type="button">Somethingelse here</button>
+					</div>
+				</div>
+				
 			<hr class="my-4">
 			<p>It uses utility classes for typography and spacing to space
 				content out within the larger container.</p>
