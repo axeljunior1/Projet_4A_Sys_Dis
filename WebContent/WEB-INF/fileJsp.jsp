@@ -11,16 +11,16 @@
 </head>
 <body>
 
-	<%@ include file="NavBar.jsp"%>
+	<%@ include file="includes/NavBar.jsp"%>
 
 	<div></div>
-
-
 	<div class="container">
 		<div class="jumbotron">
-		<div class="card-header bg-transparent border-success"> 
-			<h1 class="display-4">Hello, world! (Header)</h2>
-		</div>
+			<div class="card-header bg-transparent border-success">
+				<h1 class="display-4">
+					Hello, world! (Header)
+					</h2>
+			</div>
 			<p class="lead">This is a simple hero unit, a simple
 				jumbotron-style component for calling extra attention to featured
 				content or information.</p>
@@ -57,8 +57,8 @@
 				the 1960s with the release of Letraset sheets containing Lorem Ipsum
 				passages, and more recently with desktop publishing software like
 				Aldus PageMaker including versions of Lorem Ipsum.</p>
-				
-				<p>Lorem Ipsum is simply dummy text of the printing and
+
+			<p>Lorem Ipsum is simply dummy text of the printing and
 				typesetting industry. Lorem Ipsum has been the industry's standard
 				dummy text ever since the 1500s, when an unknown printer took a
 				galley of type and scrambled it to make a type specimen book. It has
@@ -76,9 +76,9 @@
 				<a class="btn btn-primary btn-lg" href="#" role="button">Learn
 					more</a>
 			</p>
-			
+
 		</div>
 	</div>
-	<%@include file="footer.jsp"%>
+	<%@include file="includes/footer.jsp"%>
 </body>
 </html>
