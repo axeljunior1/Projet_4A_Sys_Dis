@@ -1,6 +1,6 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	<a class="navbar-brand" href="#">E-buy</a>
+	<a class="navbar-brand" href="#" style="margin-right: 50px">E-buy</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
 		data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
 		aria-expanded="false" aria-label="Toggle navigation">
@@ -14,7 +14,6 @@
 			<li class="nav-item"><a class="nav-link" href="#">Features</a></li>
 			<li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
 			<li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
-			<li><img src="images/icon-compte.png" style="width: 50px" height="50"/></li>
 		</ul>
 		<span class="navbar-text">
 		
@@ -22,7 +21,7 @@
 				<input class="form-control mr-sm-2" type="search"
 					placeholder="Search" aria-label="Search">
 				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="margin-left: 30px"><img src="/WEB-INF/includes/images/user_icon_176933.png" style=" width: auto ; height: auto;"/></button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="margin-left: 30px"><!--  <img src="user_icon_176933.png" style=" width: auto ; height: auto;"/>-->Mon Compte</button>
 			</form>
 		</span>
 	</div>
