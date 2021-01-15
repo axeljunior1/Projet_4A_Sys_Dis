@@ -8,12 +8,12 @@
 	</button>
 	<div class="collapse navbar-collapse" id="navbarText">
 		<ul class="navbar-nav mr-auto">
-			<li class="nav-item active"><a class="nav-link" href="#">Mes Commandes 
+			<li class="nav-item active"><a class="nav-link" href="/Projet_4A_Sys_Dis/mes_commandes">Mes Commandes 
 					<span class="sr-only">(current)</span>
 			</a></li>
 			<li class="nav-item"><a class="nav-link"
-				href="/Projet_4A_Sys_Dis/Mat">Mes Informations</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">Mes messages</a></li>
+				href="/Projet_4A_Sys_Dis/mes_informations">Mes Informations</a></li>
+			<li class="nav-item"><a class="nav-link" href="/Projet_4A_Sys_Dis/mes_messages">Mes messages</a></li>
 		</ul>
 		<span class="navbar-text">
 			<form class="form-inline" method="post">

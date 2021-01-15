@@ -247,13 +247,15 @@ padding: 5%;
 					
 			</div>
 <div class="container" id="container">
-	<div class="form-container sign-up-container">
+	<div class="form-container sign-in-container">
 		<form action="#" id="form">
-			<h1>Create Account</h1>>
-			<input type="text" placeholder="Name" />
+			<h1>Sign up</h1>
+			<input type="text" placeholder=" first Name" />
+			
+			<input type="text" placeholder=" Last Name" />
 			<input type="email" placeholder="Email" />
 			<input type="password" placeholder="Password" />
-			
+			<input type="password" placeholder="Confirm Password" />
 			<a href="/Projet_4A_Sys_Dis/connexion"><span>Sign in</span><br/></a>
 			<button>Sign Up</button>
 		</form>
