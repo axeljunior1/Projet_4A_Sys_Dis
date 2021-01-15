@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,20 +18,22 @@
 
 	<div></div>
 	<div class="container">
-		<div class="jumbotron" style="padding-top: 0px;">
-			<div class="card-header bg-transparent border-success" style="margin:-2em; margin-top: -0.7em; margin-bottom: -1em" >
-				<%@ include file="includes/NavBarCompte.jsp"%> 
+		<div class="jumbotron">
+			<div class="card-header bg-transparent border-success">
+				<h2 class="display-4">
+					Hello, world! (Header) <img src="https://icon-icons.com/icons2/2778/PNG/32/user_icon_176933.png" style="width: 50px" height="50"/>
+					</h2>
+					
 			</div>
-			<div style="margin-top: 2em">
 			<p class="lead">This is a simple hero unit, a simple
 				jumbotron-style component for calling extra attention to featured
 				content or information.</p>
 
-			</div>
+
 			<c:if test="${!empty cf.res }">
 				<c:out value="${cf.res }"></c:out>
 			</c:if>
-			<form action="fileJsp" method="post" style="margin-top: 1em;">
+			<form action="fileJsp" method="post">
 				<p>
 					<label for="nom"> Nom:</label> <input type="text" name="nom"
 						id="nom">
@@ -51,16 +52,7 @@
 			<c:forEach items="${etudiants}" var="etudiant">
 				<p>${etudiant.nom }</p>
 			</c:forEach>
-			<p>Lorem Ipsum is simply dummy text of the printing and
-				typesetting industry. Lorem Ipsum has been the industry's standard
-				dummy text ever since the 1500s, when an unknown printer took a
-				galley of type and scrambled it to make a type specimen book. It has
-				survived not only five centuries, but also the leap into electronic
-				typesetting, remaining essentially unchanged. It was popularised in
-				the 1960s with the release of Letraset sheets containing Lorem Ipsum
-				passages, and more recently with desktop publishing software like
-				Aldus PageMaker including versions of Lorem Ipsum.</p>
-
+			
 			<p>Lorem Ipsum is simply dummy text of the printing and
 				typesetting industry. Lorem Ipsum has been the industry's standard
 				dummy text ever since the 1500s, when an unknown printer took a
