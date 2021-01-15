@@ -27,7 +27,11 @@
 			<p class="lead">This is a simple hero unit, a simple
 				jumbotron-style component for calling extra attention to featured
 				content or information.</p>
-
+				<a href="/Projet_4A_Sys_Dis/connexion"> lien de connexion</a>
+				<a href="/Projet_4A_Sys_Dis/mes_messages"> lien de messages</a>
+				<a href="/Projet_4A_Sys_Dis/mes_commandes"> lien de commandes</a>
+				<a href="/Projet_4A_Sys_Dis/mes_informations"> lien de info</a>
+				<a href="/Projet_4A_Sys_Dis/inscription"> lien de inscrip</a>
 			</div>
 			<c:if test="${!empty cf.res }">
 				<c:out value="${cf.res }"></c:out>

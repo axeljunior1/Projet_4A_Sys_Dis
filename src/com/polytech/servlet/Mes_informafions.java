@@ -27,7 +27,7 @@ public class Mes_informafions extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		this.getServletContext().getRequestDispatcher("/WEB-INF/mes_informations.jsp").forward(request, response);
 	}
 
 	/**

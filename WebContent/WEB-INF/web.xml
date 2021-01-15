@@ -12,6 +12,7 @@
 		<servlet-name>Math</servlet-name>
 		<url-pattern>/Mat</url-pattern>
 	</servlet-mapping>
+	
 	<servlet>
 		<servlet-name>info</servlet-name>
 		<servlet-class>com.polytech.servlet.Info</servlet-class>
@@ -21,6 +22,53 @@
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 
+	
+	<servlet>
+		<servlet-name>Connexion</servlet-name>
+		<servlet-class>com.polytech.servlet.Connexion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Connexion</servlet-name>
+		<url-pattern>/connexion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Inscription</servlet-name>
+		<servlet-class>com.polytech.servlet.Inscription</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Inscription</servlet-name>
+		<url-pattern>/inscription</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Mes_Commandes</servlet-name>
+		<servlet-class>com.polytech.servlet.Mes_Commandes</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Mes_Commandes</servlet-name>
+		<url-pattern>/mes_commandes</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Mes_informafions</servlet-name>
+		<servlet-class>com.polytech.servlet.Mes_informafions</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Mes_informafions</servlet-name>
+		<url-pattern>/mes_informations</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Mes_messages</servlet-name>
+		<servlet-class>com.polytech.servlet.Mes_messages</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Mes_messages</servlet-name>
+		<url-pattern>/mes_messages</url-pattern>
+	</servlet-mapping>
+	
+	
 
 	<jsp-config>
 		<jsp-property-group>
