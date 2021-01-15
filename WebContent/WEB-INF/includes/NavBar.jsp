@@ -26,14 +26,12 @@
 				</c:if>
 
 
-			</form> </span><a href="Mat">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit"
-					style="margin-left: 10px">
-					<!--  <img src="user_icon_176933.png" style=" width: auto ; height: auto;"/>-->
-					Inscription
-				</button>
+			</form>
+		</span> <a href="/Projet_4A_Sys_Dis/connexion">
+			<button class="btn btn-outline-success my-2 my-sm-0"
+				style="margin-left: 10px">Connexion</button>
 		</a>
-		
+
 	</div>
 	<div>
 	
